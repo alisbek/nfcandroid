@@ -1,8 +1,6 @@
 package com.example.nfc_android;
-
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -24,7 +22,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-
+//Все тексты in english
     public static final String ERROR_DETECTED = "NFC считыватель не найден!";
     public static final String WRITE_SUCCESS = "Сообщение успешно записано!";
     public static final String WRITE_ERROR = "Ошибка во время записи, попробуйте поднести устройство поближе к считывателю";
